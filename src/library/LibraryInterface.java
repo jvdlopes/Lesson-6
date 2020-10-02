@@ -12,7 +12,7 @@ public class LibraryInterface {
         b3 = new Book("Singing in the rain","Harry Conner");
         b4 = new Book("Good Housekeeping", "Pat Burns");
         b5 = new Book("To Be a Model","Lisa Lahey");
-        System.out.println("Here are the books available");
+        System.out.println("Here are the books available:\n");
         System.out.println(b1);
         System.out.println(b2);
         System.out.println(b3);
@@ -20,8 +20,8 @@ public class LibraryInterface {
         System.out.println(b5);
         Patron p = new Patron("Miles Davis");
         
-        /*
-        System.out.println("Lending 4 books to " + p.getName());
+        
+        System.out.println("\nLending 4 books to " + p.getName());
         if(p.borrow(b1))    System.out.println(b1.getTitle() + " sucessfully borrowed");
         else                System.out.println(b1.getTitle() + " could not be borrowed");
         
@@ -44,7 +44,7 @@ public class LibraryInterface {
         if(p.hasBook(b3)) System.out.println(b3);
         if(p.hasBook(b4)) System.out.println(b4);
         if(p.hasBook(b5)) System.out.println(b5);
-        */
+        
     }
     
 }
