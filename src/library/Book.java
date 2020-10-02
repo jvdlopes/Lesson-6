@@ -10,5 +10,9 @@ public class Book {
         this.author = author;
         this.title = title;
     }
-    
+    public String toString(){
+        //e
+        System.out.println(".");
+        return "e";
+    }
 }
